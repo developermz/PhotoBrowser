@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  PhotoBrowser
+//
+//  Created by meizhu on 2018/12/26.
+//  Copyright © 2018年 mz. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#pragma mark - define
+#import "AppMacro.h"
+#import "AppConst.h"
+
+#pragma mark - 三方
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <MJExtension/MJExtension.h>
+
+#pragma mark - 工具
+#import "ServiceManager.h"
+#import "ProgressHUD.h"
+#import "RefreshManager.h"
+#import "UIView+Util.h"
+
+#endif /* PrefixHeader_pch */
